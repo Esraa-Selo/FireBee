@@ -1,0 +1,440 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+  .background-main{
+    background-color: #f6f6f6;
+}
+.background-black{
+  background-color: #000000eb;
+}
+.f-s-24{
+    font-size: 24px;
+}
+.h1, h1 {
+    font-size: 4rem;
+}
+.resone{
+    padding: 30px 0;
+}
+.background-white{
+    background-color: white;
+
+}
+.gradient-text {  
+    background: linear-gradient(45deg, red, blue); /* تدرج الألوان */  
+    -webkit-background-clip: text; /* قص الخلفية للنص */  
+    -webkit-text-fill-color: transparent; /* جعل لون النص شفاف */  
+} 
+.gradient-icon { 
+    background: linear-gradient(45deg, #198754c9, #0db00df0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} 
+.border-top{
+    border-top:1px solid #eee
+}
+/* 
+.gradient-border {  
+    border-width: 3px; 
+    border-style: solid;
+    border-image: linear-gradient(to right, #dc3545, #feb47b) 1;
+    border-radius: 15px
+    padding: 10px 20px;
+    margin: 10px;
+}  
+*/
+.arrow-right{
+    border-radius: 20px;
+    margin-left: 12.5%;
+
+}
+.arrow-right i {
+    font-weight: 700 !important;
+    font-size: 20px;
+    /* margin: 44px; */
+    margin-right: -50%;
+}
+.container-images{
+    width: 70%;
+    margin-left: 15%;
+}
+.images{
+    border: 1px solid #eee ;
+    width: 14%;
+    /* aspect-ratio: 4/3; */
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+}
+.day-title {
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    font-size: 28px;
+}
+.Day-image img{
+    width: 70%;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-left: 15%;
+
+}
+.my-8{
+    margin: 3rem 0;
+}
+.px-10{
+    padding: 0 4.5rem;
+
+}
+.resone li{
+    font-size: 18px;
+    margin: 15px 0
+}
+.weight-700{
+    font-weight :700 !important
+}
+.weight-600{
+    font-weight :600 !important
+}
+.weight-500{
+    font-weight :500
+}
+p{
+    line-height: 26px;
+}
+.price{
+    font-size : 17px
+}
+.last-price{
+    position: relative;
+    margin: 10px;
+}
+.last-price::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 115%;
+    height: 1px;
+    background: #dc3545;
+    bottom: 10px;
+    left: -4px;
+    transform: rotate(166deg);
+}
+.gradient-border {  
+    padding: 20px; /* مساحة داخلية للمحتوى */  
+    border-radius: 12px; /* حواف دائرية للعنصر */  
+    /* background: linear-gradient(45deg, red, blue); اللون التدريجي   */
+    display: inline-block; /* تحجيم عنصر الإطار بناءً على المحتوى */  
+    position: relative; /* لجعل العناصر المطلقة تتوافق بشكل صحيح */ 
+    /* border: 1px solid #eee; */
+     transition: background 0.3s ease; /* إضافة انتقال ناعم */ 
+}  
+
+.gradient-border:hover::before {  
+    content: '';  
+    position: absolute;  
+    top: -1px; /* تغيير Position لتحديد موقع الحد */  
+    left: -1px; /* تغيير Position لتحديد موقع الحد */  
+    right: -1px; /* تغيير Position لتحديد موقع الحد */  
+    bottom: -1px; /* تغيير Position لتحديد موقع الحد */  
+    border-radius: 13px; /* نفس قيمة الحواف الدائرية */  
+    background: linear-gradient(45deg, red, blue); /* اللون التدريجي */  
+    z-index: -1; /* وضع الخلفية خلف المحتوى */  
+}  
+/* تأثيرات عند عدم التمرير - unhover */  
+    /* خصائص عندما لا يكون المؤشر فوق العنصر */  
+/* .gradient-border:not(:hover) {  
+   border: 1px solid #eee;
+}  */
+.gradient-button {  
+    background: linear-gradient(45deg, red, blue);; /* لون تدريجي */  
+    color: white; /* لون النص */ 
+    cursor: pointer; 
+    text-transform: uppercase; /* حروف كبيرة */  
+    padding: 5px 50px; /* هوامش الزر */  
+    border: none; /* إزالة الحدود */  
+    border-radius: 30px; /* زوايا دائرية */   
+    cursor: pointer; /* يظهر كأنه زر يمكن نقرة عليه */  
+    transition: background 0.3s; /* تأثير انتقال عند التحويم */
+
+
+}  
+.check-icon{
+    padding: 10px 10px 10px 3px;
+
+}
+ul{
+    padding-left: 1rem;
+    list-style: none;
+}
+li{
+    padding: 6px 0;
+
+}
+/* general */
+.d-flex{
+    display: flex;
+}
+.justify-space-evenly{
+    justify-content: space-evenly;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center
+}
+.align-start{
+    align-items: start
+}
+
+.justify-center{
+    justify-content: center
+}
+.mt-10px{
+    margin-top: 11px;
+}
+.w-10{
+    width: 10%;
+}
+.p-10{
+    padding: 10px;
+}
+.f-s-18{
+    font-size: 1.8rem;
+}
+.f-s-22{
+    font-size: 2.2rem;
+}
+
+.accordion-button{
+    background-color : #f6f6f6 !important;
+
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color : #f6f6f6 !important;
+     box-shadow : none !important;
+}
+.accordion p {
+    font-size: 20px;
+}
+.accordion{
+    --bs-accordion-bg: #f6f6f6;
+}
+/* button:focus {
+    border-color:white;
+    box-shadow:none;
+} */
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button::after{
+    width: 0;
+}
+
+.accordion{
+    --bs-accordion-border-color : black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+body {  
+    /* margin: 0;  
+    height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    overflow: hidden;  
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b);   */
+    
+}  
+.bottom-footer,
+.top-footer{
+    color: white;
+    padding: 20px 0;
+    font-weight: 100;
+}
+.bottom-footer{
+    position: relative;  
+    overflow: hidden;  
+}
+.tail {  
+    position: absolute;  
+    bottom: -70px;  
+    left: 50%;  
+    transform: translateX(-50%);  
+    width: 75%; /* العرض */  
+    height: 100px; /* الارتفاع */  
+    background: linear-gradient(45deg, red, blue); /* تدرج لوني */  
+    border-radius: 50%; /* لعمل نصف دائرة */  
+    filter: blur(20px); /* تأثير التمويه */  
+    margin: auto;
+}  
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.container-img div{
+    /* display: flex; */
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, red, blue); /* تدرج لوني */  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    position: relative;
+}
+.container-img img {
+    width: 100%;
+    position: absolute;
+    filter: opacity(0.2);
+}
+.container-img span{
+    color:white
+}
+.card{
+    border-radius: 10px;
+    padding: 20px 10px;
+    border: none;
+}
+i.bi.bi-star-half,
+i.bi.bi-star-fill {
+    color: #ffff009e;
+}
+.color-white{
+    color: white;
+}
+.main-title {  
+    background-image: url('../image/Group\ 1228\ \(1\).png'), url('../image/image 16 (1).png'); 
+    /* background-size: cover;  */
+    margin: 0;
+    padding: 15px;
+    font-size: 2rem;
+    font-weight:bold;
+    background-position: center;
+
+}
+.resone{
+    padding: 0 !important;
+    overflow: hidden;
+    
+}
+.navbar{
+    margin-bottom: 0px;
+}
+@media (min-width: 768px) {
+    .navbar-nav>li {
+        float: left;
+        margin: 0 40px 0 0;
+        font-weight: 500;
+        font-size: large;
+    }
+}
+.container-btn{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 10px;
+}
+i.bi.bi-person {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+button.btn.btn-success.my-2.my-sm-0 {
+    border-radius: 21px;
+    width: 132px;
+}
+.main-img{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.fst-main-img,
+.sec-main-img{
+    position: absolute;
+    width: 100px;
+    top: -127px;
+}
+.fst-main-img{
+    left: 0;
+}
+.sec-main-img{
+    left: 120px;
+}
+.last-feat{
+    justify-content: end;
+}
+.last-second{
+    justify-content: center;
+}
+
+.privacy-sm{
+    display: none !important
+}
+@media (max-width: 768px) {
+    .last-feat, .last-second{
+        justify-content: start;
+    }
+    .privacy-lg{
+        display: none !important
+    }
+    .privacy-sm{
+        margin-top:1rem;
+        display: flex !important
+    }
+    .text-center-sm{
+        text-align: center;
+    }
+    .wave-top , .wave-bottom {
+        display: none !important;
+    }
+    .col-4 img {
+        width: 75%;
+        margin: 25px auto auto 12.5%;
+    }
+    .img-small img{
+        width: 40% !important;
+        margin-bottom: 10px;
+    }
+}
+.w-75 {
+    width: 78% !important;
+}
+.resone .container{
+    position: relative;
+}
+.wave-top, .wave-bottom{
+    position: absolute;
+}
+.wave-top{
+    top: 0;
+    left: -100px;
+}
+.wave-bottom{
+    bottom: 0;
+    right: -25rem;
+}
+.privacy-lg .col-6{
+    margin: 30px 0;
+}
+.navbar-brand{
+    padding: 9px 15px;
+}
+.img-small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
